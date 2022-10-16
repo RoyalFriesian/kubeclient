@@ -2,8 +2,8 @@
 
 Sample commands
 
+## To find all the pods in all the namespaces
 go run . --kubeconfig "C:/Users/tarun/.kube/config" 
-# To find all the pods in all the namespaces
 
 go run . --kubeconfig "C:/Users/tarun/.kube/config" --name "kube-proxy-5l4wz"
 # To find a perticular pod
